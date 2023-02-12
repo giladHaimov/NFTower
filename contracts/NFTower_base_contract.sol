@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 // contract address:    0xEC33f510fA064D960eDf4eE6679f2B0A9d3a8af9
 // owner address:       0x1da0ebd30170d8c289ca03b256757e6aa271223e 
 
-contract GiladContract is IERC721Receiver { 
+contract NFTowerBaseContract is IERC721Receiver { 
     
     //@gilad create dev env: custom ERC721 token ; deploy contract on testnet; invoke contract functions
     //      size optimization: add cost 20K gas per word ; modify cost: 5K 
